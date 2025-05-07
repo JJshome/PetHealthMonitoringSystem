@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap');
+    
+    text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+    }
+    
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      text-anchor: middle;
+      fill: #3F51B5;
+    }
+    
+    .subtitle {
+      font-size: 18px;
+      text-anchor: middle;
+      fill: #555;
+    }
+  </style>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F9F9F9" />
+  
+  <!-- Title -->
+  <text x="400" y="50" class="title">Intelligent Pet Health Monitoring</text>
+  <text x="400" y="80" class="subtitle">Based on Ucaretron Inc. Patented Technology</text>
+  
+  <!-- Dog with wearable collar -->
+  <g transform="translate(150, 200)">
+    <!-- Dog body -->
+    <ellipse cx="130" cy="150" rx="100" ry="70" fill="#F9D172" stroke="#C59E3F" stroke-width="2" />
+    
+    <!-- Dog head -->
+    <circle cx="50" cy="100" r="50" fill="#F9D172" stroke="#C59E3F" stroke-width="2" />
+    
+    <!-- Dog ears -->
+    <ellipse cx="30" cy="60" rx="20" ry="30" fill="#F9D172" stroke="#C59E3F" stroke-width="2" />
+    <ellipse cx="70" cy="60" rx="20" ry="30" fill="#F9D172" stroke="#C59E3F" stroke-width="2" />
+    
+    <!-- Dog face -->
+    <circle cx="40" cy="95" r="8" fill="#333" /> <!-- Left eye -->
+    <circle cx="65" cy="95" r="8" fill="#333" /> <!-- Right eye -->
+    <ellipse cx="52" cy="115" rx="15" ry="10" fill="#333" /> <!-- Nose -->
+    <path d="M 52 125 Q 70 140 90 125" fill="none" stroke="#333" stroke-width="2" /> <!-- Mouth -->
+    
+    <!-- Smart collar with sensors -->
+    <path d="M 20 130 Q 50 150 80 130" fill="#3F51B5" stroke="#283593" stroke-width="2" />
+    <circle cx="50" cy="140" r="8" fill="#00BCD4" stroke="#0097A7" stroke-width="1" /> <!-- Sensor light -->
+    <rect x="30" cy="135" width="15" height="10" rx="2" ry="2" fill="#4CAF50" stroke="#388E3C" stroke-width="1" /> <!-- Sensor module -->
+    <rect x="60" cy="135" width="15" height="10" rx="2" ry="2" fill="#F44336" stroke="#D32F2F" stroke-width="1" /> <!-- Sensor module -->
+    
+    <!-- Dog legs -->
+    <ellipse cx="60" cy="210" rx="12" ry="25" fill="#F9D172" stroke="#C59E3F" stroke-width="2" /> <!-- Front leg -->
+    <ellipse cx="100" cy="210" rx="12" ry="25" fill="#F9D172" stroke="#C59E3F" stroke-width="2" /> <!-- Front leg -->
+    <ellipse cx="160" cy="210" rx="12" ry="25" fill="#F9D172" stroke="#C59E3F" stroke-width="2" /> <!-- Back leg -->
+    <ellipse cx="200" cy="210" rx="12" ry="25" fill="#F9D172" stroke="#C59E3F" stroke-width="2" /> <!-- Back leg -->
+    
+    <!-- Dog tail -->
+    <path d="M 230 130 Q 260 100 280 130" fill="#F9D172" stroke="#C59E3F" stroke-width="2" />
+  </g>
+  
+  <!-- Data visualization and IoT elements -->
+  <g transform="translate(400, 200)">
+    <!-- Smartphone with app -->
+    <rect x="50" y="40" width="100" height="180" rx="10" ry="10" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2" />
+    <rect x="55" y="50" width="90" height="160" rx="5" ry="5" fill="#E0E0E0" />
+    
+    <!-- App interface -->
+    <rect x="60" y="60" width="80" height="20" rx="3" ry="3" fill="#3F51B5" />
+    <circle cx="70" cy="70" r="5" fill="#FFFFFF" />
+    <rect x="80" y="65" width="50" height="10" rx="2" ry="2" fill="#FFFFFF" opacity="0.7" />
+    
+    <!-- Vital signs graph -->
+    <rect x="60" y="85" width="80" height="40" rx="2" ry="2" fill="#FFFFFF" />
+    <polyline points="65,115 75,105 85,110 95,90 105,100 115,95 125,105" 
+              fill="none" stroke="#F44336" stroke-width="2" />
+    
+    <!-- Health status -->
+    <rect x="60" y="130" width="80" height="30" rx="2" ry="2" fill="#FFFFFF" />
+    <rect x="65" y="135" width="50" height="5" rx="1" ry="1" fill="#9C27B0" opacity="0.7" />
+    <rect x="65" y="145" width="30" height="5" rx="1" ry="1" fill="#9C27B0" opacity="0.7" />
+    <circle cx="120" cy="140" r="10" fill="#4CAF50" />
+    <path d="M 115 140 L 120 145 L 125 135" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    
+    <!-- Recommendations -->
+    <rect x="60" y="165" width="80" height="40" rx="2" ry="2" fill="#FFFFFF" />
+    <rect x="65" y="170" width="70" height="5" rx="1" ry="1" fill="#FF9800" opacity="0.7" />
+    <rect x="65" y="180" width="60" height="5" rx="1" ry="1" fill="#FF9800" opacity="0.7" />
+    <rect x="65" y="190" width="50" height="5" rx="1" ry="1" fill="#FF9800" opacity="0.7" />
+    <rect x="65" y="200" width="65" height="5" rx="1" ry="1" fill="#FF9800" opacity="0.7" />
+  </g>
+  
+  <!-- IoT and AI cloud elements -->
+  <g transform="translate(550, 100)">
+    <!-- Cloud shape -->
+    <path d="M 50,50 
+             C 30,30 0,40 0,70 
+             C 0,100 30,110 50,90 
+             C 70,110 100,100 100,70 
+             C 100,40 70,30 50,50" 
+          fill="#E1F5FE" stroke="#81D4FA" stroke-width="2" />
+    
+    <!-- AI icon -->
+    <g transform="translate(30, 55) scale(0.8)">
+      <rect x="0" y="0" width="50" height="50" rx="5" ry="5" fill="#3F51B5" />
+      <text x="25" y="32" font-family="Roboto" font-size="20" font-weight="bold" text-anchor="middle" fill="white">AI</text>
+    </g>
+    
+    <!-- Connection lines between elements -->
+    <path d="M -400 150 C -250 100 -150 130 -100 100" fill="none" stroke="#81D4FA" stroke-width="2" stroke-dasharray="5,3" />
+    <path d="M 0 90 C -50 150 -150 180 -200 250" fill="none" stroke="#81D4FA" stroke-width="2" stroke-dasharray="5,3" />
+    
+    <!-- Data symbols -->
+    <g transform="translate(-270, 120)">
+      <circle cx="0" cy="0" r="5" fill="#F44336" />
+    </g>
+    <g transform="translate(-220, 110)">
+      <circle cx="0" cy="0" r="5" fill="#4CAF50" />
+    </g>
+    <g transform="translate(-170, 130)">
+      <circle cx="0" cy="0" r="5" fill="#FFC107" />
+    </g>
+    <g transform="translate(-140, 200)">
+      <circle cx="0" cy="0" r="5" fill="#9C27B0" />
+    </g>
+    <g transform="translate(-100, 160)">
+      <circle cx="0" cy="0" r="5" fill="#00BCD4" />
+    </g>
+  </g>
+  
+  <!-- Additional UI elements and explanatory labels -->
+  <g transform="translate(100, 450)">
+    <!-- Health status indicators -->
+    <rect x="0" y="0" width="180" height="30" rx="15" ry="15" fill="#4CAF50" />
+    <text x="90" y="20" font-family="Roboto" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Healthy Status</text>
+    
+    <rect x="200" y="0" width="180" height="30" rx="15" ry="15" fill="#FFC107" />
+    <text x="290" y="20" font-family="Roboto" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Early Warning</text>
+    
+    <rect x="400" y="0" width="180" height="30" rx="15" ry="15" fill="#F44336" />
+    <text x="490" y="20" font-family="Roboto" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Veterinary Attention</text>
+    
+    <!-- Technology labels -->
+    <rect x="0" y="50" width="120" height="30" rx="5" ry="5" fill="#E0E0E0" />
+    <text x="60" y="70" font-family="Roboto" font-size="12" text-anchor="middle" fill="#333">Wearable Sensors</text>
+    
+    <rect x="130" y="50" width="120" height="30" rx="5" ry="5" fill="#E0E0E0" />
+    <text x="190" y="70" font-family="Roboto" font-size="12" text-anchor="middle" fill="#333">IoT Integration</text>
+    
+    <rect x="260" y="50" width="120" height="30" rx="5" ry="5" fill="#E0E0E0" />
+    <text x="320" y="70" font-family="Roboto" font-size="12" text-anchor="middle" fill="#333">AI Diagnosis</text>
+    
+    <rect x="390" y="50" width="120" height="30" rx="5" ry="5" fill="#E0E0E0" />
+    <text x="450" y="70" font-family="Roboto" font-size="12" text-anchor="middle" fill="#333">Personalized Care</text>
+  </g>
+  
+  <!-- System tagline -->
+  <text x="400" y="570" font-family="Roboto" font-size="18" font-weight="bold" text-anchor="middle" fill="#3F51B5">Smart Monitoring for Happier, Healthier Pets</text>
+</svg>
