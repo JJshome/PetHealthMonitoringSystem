@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap');
+    
+    text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+    }
+    
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    
+    .step-title {
+      font-size: 16px;
+      font-weight: bold;
+      text-anchor: middle;
+      fill: white;
+    }
+    
+    .step-desc {
+      font-size: 12px;
+      text-anchor: middle;
+      fill: white;
+    }
+    
+    .arrow {
+      fill: none;
+      stroke: #555;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+    
+    .label {
+      font-size: 12px;
+      fill: #555;
+      text-anchor: middle;
+    }
+    
+    .step-box {
+      rx: 20;
+      ry: 20;
+      filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+    }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" class="title">Pet Health Monitoring System Workflow</text>
+  
+  <!-- Step 1: Data Collection -->
+  <rect x="50" y="100" width="200" height="100" class="step-box" fill="#4285F4" />
+  <text x="150" y="130" class="step-title">Step 1: Data Collection</text>
+  <text x="150" y="155" class="step-desc">Collect biometric data from</text>
+  <text x="150" y="175" class="step-desc">wearable sensors, ear sensors,</text>
+  <text x="150" y="195" class="step-desc">and IoT devices</text>
+  
+  <!-- Step 2: Data Preprocessing -->
+  <rect x="300" y="100" width="200" height="100" class="step-box" fill="#DB4437" />
+  <text x="400" y="130" class="step-title">Step 2: Data Preprocessing</text>
+  <text x="400" y="155" class="step-desc">Clean, normalize, and prepare</text>
+  <text x="400" y="175" class="step-desc">data for analysis using</text>
+  <text x="400" y="195" class="step-desc">edge AI processing</text>
+  
+  <!-- Step 3: AI Analysis -->
+  <rect x="550" y="100" width="200" height="100" class="step-box" fill="#F4B400" />
+  <text x="650" y="130" class="step-title">Step 3: AI Analysis</text>
+  <text x="650" y="155" class="step-desc">Detect anomalies, assess</text>
+  <text x="650" y="175" class="step-desc">health status, and</text>
+  <text x="650" y="195" class="step-desc">predict potential diseases</text>
+  
+  <!-- Step 4: Health Status Assessment -->
+  <rect x="550" y="250" width="200" height="100" class="step-box" fill="#0F9D58" />
+  <text x="650" y="280" class="step-title">Step 4: Health Assessment</text>
+  <text x="650" y="305" class="step-desc">Evaluate overall health status</text>
+  <text x="650" y="325" class="step-desc">based on vital signs and</text>
+  <text x="650" y="345" class="step-desc">behavioral indicators</text>
+  
+  <!-- Step 5: Care Plan Generation -->
+  <rect x="300" y="250" width="200" height="100" class="step-box" fill="#9C27B0" />
+  <text x="400" y="280" class="step-title">Step 5: Care Plan Generation</text>
+  <text x="400" y="305" class="step-desc">Create personalized care plan</text>
+  <text x="400" y="325" class="step-desc">with nutrition, exercise, and</text>
+  <text x="400" y="345" class="step-desc">medical recommendations</text>
+  
+  <!-- Step 6: Behavior Analysis -->
+  <rect x="50" y="250" width="200" height="100" class="step-box" fill="#4CAF50" />
+  <text x="150" y="280" class="step-title">Step 6: Behavior Analysis</text>
+  <text x="150" y="305" class="step-desc">Analyze behavioral patterns</text>
+  <text x="150" y="325" class="step-desc">and develop improvement</text>
+  <text x="150" y="345" class="step-desc">strategies if needed</text>
+  
+  <!-- Step 7: Remote Veterinary Care -->
+  <rect x="50" y="400" width="200" height="100" class="step-box" fill="#FF5722" />
+  <text x="150" y="430" class="step-title">Step 7: Remote Veterinary Care</text>
+  <text x="150" y="455" class="step-desc">Connect with veterinarians</text>
+  <text x="150" y="475" class="step-desc">through VR/AR technology</text>
+  <text x="150" y="495" class="step-desc">for remote consultations</text>
+  
+  <!-- Step 8: Data Management -->
+  <rect x="300" y="400" width="200" height="100" class="step-box" fill="#3F51B5" />
+  <text x="400" y="430" class="step-title">Step 8: Data Management</text>
+  <text x="400" y="455" class="step-desc">Securely store and share</text>
+  <text x="400" y="475" class="step-desc">pet health data using</text>
+  <text x="400" y="495" class="step-desc">blockchain technology</text>
+  
+  <!-- Step 9: Continuous Monitoring -->
+  <rect x="550" y="400" width="200" height="100" class="step-box" fill="#00BCD4" />
+  <text x="650" y="430" class="step-title">Step 9: Continuous Monitoring</text>
+  <text x="650" y="455" class="step-desc">Continuously monitor pet health</text>
+  <text x="650" y="475" class="step-desc">and adjust care plans based</text>
+  <text x="650" y="495" class="step-desc">on changing conditions</text>
+  
+  <!-- Connect arrows between steps -->
+  <path d="M 250 150 L 300 150" class="arrow" />
+  
+  <path d="M 500 150 L 550 150" class="arrow" />
+  
+  <path d="M 650 200 L 650 250" class="arrow" />
+  
+  <path d="M 550 300 L 500 300" class="arrow" />
+  
+  <path d="M 300 300 L 250 300" class="arrow" />
+  
+  <path d="M 150 350 L 150 400" class="arrow" />
+  
+  <path d="M 250 450 L 300 450" class="arrow" />
+  
+  <path d="M 500 450 L 550 450" class="arrow" />
+  
+  <path d="M 650 400 C 700 400 700 200 650 200" class="arrow" />
+  <text x="725" y="300" class="label">Continuous cycle</text>
+  
+  <!-- Additional connections -->
+  <path d="M 400 350 L 400 400" class="arrow" />
+  
+  <path d="M 150 250 C 100 250 100 175 150 175" class="arrow" />
+  <text x="60" y="210" class="label">Data updates</text>
+</svg>
